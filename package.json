@@ -1,0 +1,22 @@
+{
+  "name": "badberry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A multiplayer virtual tabletop.",
+  "license": "MIT",
+  "author": "Mehrdadkb",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @badberry/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.21.0",
+      "onFail": "download"
+    }
+  }
+}
